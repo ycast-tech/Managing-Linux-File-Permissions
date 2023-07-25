@@ -73,6 +73,7 @@ In this project I can demonstrate I have practical experience in using basic Lin
 - change permissions on files,
 - change permissions on directories, and
 - examine and change permissions on hidden files and directories.
+
 This is an important milestone on my journey toward managing authorization in Linux!
 
 
