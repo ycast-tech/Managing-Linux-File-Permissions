@@ -1,15 +1,19 @@
 # Managing Linux File Permissions
-In this project I will demonstrate my experience using Linux commands to examine and manage file permissions.
-## Check file and directory details
-In this task, I explore the permissions of the projects directory and the files it contains. The lab starts with /home/researcher2 as the current working directory. This is because I'm changing permissions for files and directories belonging to the researcher2 user.
 
-I used the commands <code>ls</code> to list the files in the current directory and <code>-l</code> to list the permissions of the files. <code>-a</code> shows hidden files, so I ran <code>ls -la</code> to list all the files within the current working directory and their permissions, incliding the hidden ones
+  In this project I will demonstrate my experience using Linux commands to examine and manage file permissions.
+
+## Check file and directory details
+
+  In this task, I explore the permissions of the projects directory and the files it contains. The lab starts with /home/researcher2 as the current working directory. This is because I'm changing permissions for files and directories belonging to the researcher2 user.
+
+  I used the commands <code>ls</code> to list the files in the current directory and <code>-l</code> to list the permissions of the files. <code>-a</code>   shows hidden files, so I ran <code>ls -la</code> to list all the files within the current working directory and their permissions, incliding the hidden ones
 
 <img src="images/examiningfiles.png" width=500>
 
 ## Describe the permissions string
+
 In Linux, permissions are represented with a 10-character string: <code>drwxrwxrwx</code> <br>
-- <b>read:</b> for files, this is the ability to read the file contents; for directories, this is the ability to read all contents in the directory including both files and subdirectories
+  - <b>read:</b> for files, this is the ability to read the file contents; for directories, this is the ability to read all contents in the directory including both files and subdirectories
 
 - <b>write:</b> for files, this is the ability to make modifications on the file contents; for directories, this is the ability to create new files in the directory
 
@@ -64,12 +68,12 @@ I have to remove group execute permissions, i will run <code>chmod g-x drafts</c
 
 ## Summary
 
-You now have practical experience in using basic Linux Bash shell commands to
-
-examine file and directory permissions,
-change permissions on files, and
-change permissions on directories.
-This is an important milestone on your journey toward managing authorization in Linux!
+In this project I can demonstrate I have practical experience in using basic Linux Bash shell commands to:
+- examine file and directory permissions,
+- change permissions on files,
+- change permissions on directories, and
+- examine and change permissions on hidden files and directories.
+This is an important milestone on my journey toward managing authorization in Linux!
 
 
 
