@@ -11,9 +11,17 @@ I used the commands <code>ls</code> to list the files in the current directory a
 In Linux, permissions are represented with a 10-character string: <code>drwxrwxrwx</code> <br>
 - <b>read:</b> for files, this is the ability to read the file contents; for directories, this is the ability to read all contents in the directory including both files and subdirectories
 
-- write: for files, this is the ability to make modifications on the file contents; for directories, this is the ability to create new files in the directory
+- <b>write:</b> for files, this is the ability to make modifications on the file contents; for directories, this is the ability to create new files in the directory
 
-- execute: for files, this is the ability to execute the file if it’s a program; for directories, this is the ability to enter the directory and access its files
+- <b>execute:</b> for files, this is the ability to execute the file if it’s a program; for directories, this is the ability to enter the directory and access its files
+
+These permissions are given to these types of owners:
+
+- <b>user:</b> the owner of the file
+
+- <b>group:</b> a larger group that the owner is a part of
+
+- <b>other:</b> all other users on the system
 
 The 1st character indicates the file type. The <code>d</code> indicates it’s a directory. When this character is a hyphen (<code>-</code>), it's a regular file.
 
